@@ -1,0 +1,25 @@
+body{
+    background-color: #231D21;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Styles pour le conteneur */
+.container {
+    width: 100%; /* Largeur du conteneur */
+    height: 100vh; /* Hauteur du conteneur, par exemple 100% de la hauteur de la fenêtre */
+    display: flex; /* Utilisation de flexbox */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+}
+
+/* Styles pour la liste */
+.centered-list {
+    list-style: none; /* Supprime les puces de la liste */
+    padding: 0; /* Supprime le padding par défaut de la liste */
+    text-align: center; /* Centre le texte à l'intérieur de la liste */
+}
+
+/* Styles pour les éléments de la liste */
+.centered-list li {
+    margin: 5px 0; /* Ajoute un espacement entre les éléments si nécessaire */
+}
